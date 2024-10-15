@@ -28,7 +28,6 @@ def determina_ganador(jugada_usuario, jugada_ordenador):
         return "Perdiste"
     
 
-
 def jugar():
     print("Bienvenido al juego de Piedra, Papel o Tijeras!!\n")
     ordenador_elige = ordenador_decide_jugada()
@@ -43,7 +42,7 @@ def jugar_torneo(puntos):
     print(f"¡Bienvenido al torneo de Piedra, Papel o Tijeras a {puntos} puntos!")
     puntos_usuario = 0
     puntos_ordenador = 0  
-
+    
     while puntos_usuario < puntos and puntos_ordenador < puntos: #mientras que los puntos esten ahi dentro se juega        
         jugada_ordenador = ordenador_decide_jugada()
         jugada_usuario = usuario_decide_jugada()            
